@@ -15,7 +15,17 @@ void input()
         { // Membuat kondisi n tidak lebih dari 20
             break;
         }
+        else
+        {
+            cout << "\nArray yang anda masukkan maksimal 20 Elemen. \n"; // Menampilkan Pesan jika data lebih 20
+        }
     }
+    cout << endl; // Membuat jarak per baris program
+    cout << "============" << endl; // Mmebuat tampilan susunan data element array 
+    cout << "Masukkan Element Array" << endl;
+    cout << "============" <<endl;
+    
 
 }
+
 
