@@ -39,7 +39,27 @@ void insertionSort()
     int j, i; // Membuat variable j sebagai penanda
 
     for (i = 1; i <= n - 1; i++)
-    {}
+    { // Step 1
+        
+    temp = arr[i]; // Step 2
+    
+j = i - 1; // Step 3
+
+while (j >= 0 && arr[j] > temp) // Step 4
+{
+    arr[j + 1] = arr[j]; // Step 4a
+    j--; // Step 4b
 }
+
+arr[j + 1] = temp; // Step 5
+ }
+}
+
+void display()
+{
+    cout << endl; // Output baris Kosong
+    
+}
+
 
 
