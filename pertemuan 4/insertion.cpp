@@ -29,10 +29,12 @@ void input()
     { 
         cout << "Data ke-" << (i + 1) << ": "; // Memasukkan atau menginputkan nilai data n
         cin >> arr[i]; // Menyimpan nilai data n kedalam array arr
-        
     }
+}
 
-
+void insertionSort()
+{ // Procedure Insertionsort
+    
 }
 
 
